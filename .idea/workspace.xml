@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c1ed807-da80-4c90-bbf4-493264bee785" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Electronic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/ElectronicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/CloudinaryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/paypal/PaypalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/paypal/PaypalPaymentIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/config/paypal/PaypalPaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/ProductOptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/exception/ExceptionRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/mapper/CartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/order/DeliveryDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/order/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/order/PaymentDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/product/ProductAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/product/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/product/ProductOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/models/product/ProductVariart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/ResponseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/CartReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/CategoryReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/ChangePasswordReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/CheckoutReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/ProductOptionReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/Productreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/RegisterReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/UserReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/repuest/VerifyOTPReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/CartItemRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/CartRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/LoginRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/ProductListRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/ProductRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/payload/response/UserRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/ProductImageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/ProductOptionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/capstone/electronic/repository/UserRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G3gZGqwIZCd0k2HmKM9UzhKeR3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.com.capstone.electronic.config" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1ed807-da80-4c90-bbf4-493264bee785" name="Changes" comment="" />
+      <created>1665622734997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665622734997</updated>
+      <workItem from="1665622736924" duration="5184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
